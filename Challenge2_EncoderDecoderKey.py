@@ -10,4 +10,3 @@ for letter in message:              # loop through each letter of the message
             value -= 26             # if we did, wrap it back around Z->A
             letter = chr(value)     # by subtracting 26 from the letter value
     output += letter                # add the letter to our output string
-print ("Output message: ", output)  # output our coded/decoded message
